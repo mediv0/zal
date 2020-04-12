@@ -9,17 +9,6 @@
     }
 }
 
-// get secondary colors
-@each $name, $color in $secondary-colors {
-    .bg-#{$name} {
-        background-color: $color;
-    }
-
-    .text-#{$name} {
-        color: $color;
-    }
-}
-
 // get primary colors as css variable
 @each $key, $color in $primary-colors {
     .bg-#{$key} {
