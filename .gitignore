@@ -20,3 +20,7 @@ yarn-error.log
 dist
 build
 mix-manifest.json
+
+
+test/build.css
+test/index.html
