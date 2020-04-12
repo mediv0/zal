@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #000000;
-  --idle-color: #FEB72B;
-  --success-color: #21BF73;
-  --error-color: #FA4252;
-  --link-color: #3E64FF;
-  --container-max-width-: 1200px;
+    --primary-color: #000000;
+    --idle-color: #feb72b;
+    --success-color: #21bf73;
+    --error-color: #fa4252;
+    --link-color: #3e64ff;
+    --container-max-width-: 1200px;
 }
