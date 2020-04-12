@@ -44,11 +44,11 @@ $paragraphs: (
 );
 
 :root {
-    --primary-color: #000000;
-    --idle-color: #feb72b;
-    --success-color: #21bf73;
-    --error-color: #fa4252;
-    --link-color: #3e64ff;
+    --primary-color: #{map-get($primary-secondary-colors, "primary")};
+    --idle-color: #{map-get($primary-secondary-colors, "idle")};
+    --success-color: #{map-get($primary-secondary-colors, "success")};
+    --error-color: #{map-get($primary-secondary-colors, "error")};
+    --link-color: #{map-get($primary-secondary-colors, "link")};
 
     // container size
     --container-max-width: 1200px;
