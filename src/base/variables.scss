@@ -1,3 +1,30 @@
+$primary-colors: (
+    "primary": #000000,
+    "idle": #feb72b,
+    "success": #21bf73,
+    "error": #fa4252,
+    "link": #3e64ff
+);
+
+$secondary-colors: (
+    "color-1": #ffd868,
+    "color-2": #ffd082,
+    "color-3": #ff896b,
+    "color-4": #ff5858,
+    "color-5": #cd4dcc,
+    "color-6": #7e0cf5,
+    "color-7": #400082,
+    "color-8": #c3f0ca,
+    "color-9": #faeee7,
+    "color-10": #ffc4c7,
+    "color-11": #ff8ba7,
+    "color-12": #beebe9,
+    "color-13": #9be3de,
+    "color-14": #64e291
+);
+
+$primary-secondary-colors: map-merge($secondary-colors, $primary-colors);
+
 :root {
     --primary-color: #000;
     --idle-color: #feb72b;
@@ -7,6 +34,6 @@
 
     --container-max-width-: 1200px;
     --font-size: 1.4rem;
-    --font-family-rtl: "Shabnam", "Vazir", sans-serif
-    --font-family-ltr: "Inter", sans-serif
+    --font-family-rtl: "Shabnam", "Vazir", sans-serif;
+    --font-family-ltr: "Inter", sans-serif;
 }
