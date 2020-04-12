@@ -10,13 +10,15 @@
     "watch": "npm run development -- --watch",
     "prod": "npm run production",
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "lint": "npx stylelint src/"
+    "lint": "npx stylelint src/",
+    "serve": "hs ./test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cross-env": "^7.0.2",
+    "http-server": "^0.12.1",
     "husky": "^4.2.3",
     "laravel-mix": "^5.0.4",
     "lint-staged": "^9.5.0",
