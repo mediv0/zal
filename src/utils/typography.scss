@@ -11,11 +11,11 @@ $headings: (
 );
 
 $paragraphs: (
-    "p-1": 1.286rem,
-    "p-2": 1.143rem,
-    "p-3": 1rem,
-    "p-4": 0.857rem,
-    "p-5": 0.714rem
+    "text-1": 1.286rem,
+    "text-2": 1.143rem,
+    "text-3": 1rem,
+    "text-4": 0.857rem,
+    "text-5": 0.714rem
 );
 
 @each $name, $size in $headings {
