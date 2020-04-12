@@ -6,17 +6,19 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased
+    -webkit-font-smoothing: antialiased;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
-  padding: 0;
-  margin: 0;
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-    font-size: var(--font-size);
+    font-size: var(--base-font-size);
     font-family: "Shabnam", "Vazir", sans-serif;
     font-family: var(--font-family-rtl);
 }

@@ -1,12 +1,16 @@
 :root {
     --primary-color: #000000;
-    --idle-color: #FEB72B;
-    --success-color: #21BF73;
-    --error-color: #FA4252;
-    --link-color: #3E64FF;
+    --idle-color: #feb72b;
+    --success-color: #21bf73;
+    --error-color: #fa4252;
+    --link-color: #3e64ff;
 
     --container-max-width-: 1200px;
-    --font-size: 1.4rem;
-    --font-family-rtl: "Shabnam", "Vazir", sans-serif
-    --font-family-ltr: "Inter", sans-serif
+    --base-font-size: 1.4rem;
+    --font-family-rtl: "Shabnam", "Vazir", "sans-serif";
+    --font-family-ltr: "Inter", "sans-serif";
+
+    // heading sizes
+    --heading-h1: 60px;
+    --heading-h2: ;
 }
