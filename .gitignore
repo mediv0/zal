@@ -24,3 +24,4 @@ mix-manifest.json
 
 test/build.css
 test/index.html
+test/tailwind.min.css
