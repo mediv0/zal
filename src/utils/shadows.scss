@@ -2,8 +2,8 @@
 @each $key, $color in $primary-colors {
     .box-shadow-#{$key} {
         position: relative;
-        background: getColorCssVariable($key);
-        &::before{
+        background: get-css-root-variable($key);
+        &::before {
             content: "";
             position: absolute;
             left: 13%;
@@ -14,7 +14,7 @@
             border-radius: 40px;
             -webkit-filter: blur(30px);
             filter: blur(30px);
-            background-color: getColorCssVariable($key);
+            background-color: get-css-root-variable($key);
         }
     }
 }
