@@ -1,23 +1,5 @@
 // typography heading classes
 
-$headings: (
-    "title-1": 4.286rem,
-    "title-2": 3.429rem,
-    "title-3": 2.857rem,
-    "title-4": 2.143rem,
-    "title-5": 1.714rem,
-    "title-6": 1.286rem,
-    "title-7": 1.143rem
-);
-
-$paragraphs: (
-    "text-1": 1.286rem,
-    "text-2": 1.143rem,
-    "text-3": 1rem,
-    "text-4": 0.857rem,
-    "text-5": 0.714rem
-);
-
 @each $name, $size in $headings {
     .#{$name} {
         font-size: $size;
