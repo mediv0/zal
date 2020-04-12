@@ -5,6 +5,7 @@
         "number-leading-zero": null,
         "at-rule-no-unknown": null,
         "color-hex-length": "long",
-        "custom-property-empty-line-before": "never"
+        "custom-property-empty-line-before": "never",
+        "function-name-case": "fix"
     }
 }

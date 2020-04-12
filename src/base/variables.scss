@@ -23,8 +23,6 @@ $secondary-colors: (
     "color-14": #64e291
 );
 
-$primary-secondary-colors: map-merge($secondary-colors, $primary-colors);
-
 $headings: (
     "title-1": 4.286rem,
     "title-2": 3.429rem,
@@ -44,11 +42,11 @@ $paragraphs: (
 );
 
 :root {
-    --primary-color: #{map-get($primary-secondary-colors, "primary")};
-    --idle-color: #{map-get($primary-secondary-colors, "idle")};
-    --success-color: #{map-get($primary-secondary-colors, "success")};
-    --error-color: #{map-get($primary-secondary-colors, "error")};
-    --link-color: #{map-get($primary-secondary-colors, "link")};
+    --primary-color: #{map-get($primary-colors, "primary")};
+    --idle-color: #{map-get($primary-colors, "idle")};
+    --success-color: #{map-get($primary-colors, "success")};
+    --error-color: #{map-get($primary-colors, "error")};
+    --link-color: #{map-get($primary-colors, "link")};
 
     // container size
     --container-max-width: 1200px;

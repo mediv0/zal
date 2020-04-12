@@ -9,13 +9,23 @@
     }
 }
 
-// primary and secondary Utilities
-@each $name, $color in $primary-secondary-colors {
+// get secondary colors
+@each $name, $color in $secondary-colors {
     .bg-#{$name} {
         background-color: $color;
     }
 
     .text-#{$name} {
         color: $color;
+    }
+}
+
+// get primary colors as css variable
+@each $key, $color in $primary-colors {
+    .bg-#{$key} {
+        background: getColorCssVariable($key);
+    }
+    .text-#{$key} {
+        color: getColorCssVariable($key);
     }
 }
