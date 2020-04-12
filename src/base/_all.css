@@ -5,4 +5,7 @@
   --error-color: #FA4252;
   --link-color: #3E64FF;
   --container-max-width-: 1200px;
+  --font-family-rtl: Shabnam, Vazir, sans-serif
+    --font-family-ltr: Inter, sans-serif
+;
 }
