@@ -12,9 +12,9 @@
 // get primary colors as css variable
 @each $key, $color in $primary-colors {
     .bg-#{$key} {
-        background: getColorCssVariable($key);
+        background: get-css-root-variable($key);
     }
     .text-#{$key} {
-        color: getColorCssVariable($key);
+        color: get-css-root-variable($key);
     }
 }
