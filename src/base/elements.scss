@@ -1,0 +1,24 @@
+/* defining default styles for HTML elements */
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* =10px */
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: var(--font-size);
+    font-family: "Shabnam", "Vazir", sans-serif;
+    font-family: var(--font-family-rtl);
+}
