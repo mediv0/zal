@@ -1,4 +1,0 @@
-// return CSS variable. to let users change the color variables dynamically in the future
-@function getColorCssVariable($key) {
-    @return var(--#{$key}-color);
-}

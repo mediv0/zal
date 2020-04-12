@@ -1,0 +1,10 @@
+/* all fucntions should have the following naming convention:
+    ****  all lower case ****
+    e.g: my-function()
+*/
+
+// return CSS variable. to let users change the color variables dynamically in the future
+
+@function get-css-root-variable($key) {
+    @return var(--#{$key}-color);
+}

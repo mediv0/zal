@@ -6,6 +6,6 @@
         "at-rule-no-unknown": null,
         "color-hex-length": "long",
         "custom-property-empty-line-before": "never",
-        "function-name-case": "fix"
+        "function-name-case": "lower"
     }
 }
