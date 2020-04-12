@@ -42,12 +42,9 @@ $paragraphs: (
 );
 
 :root {
-    --primary-color: #{map-get($primary-colors, "primary")};
-    --idle-color: #{map-get($primary-colors, "idle")};
-    --success-color: #{map-get($primary-colors, "success")};
-    --error-color: #{map-get($primary-colors, "error")};
-    --link-color: #{map-get($primary-colors, "link")};
-
+    @each $name, $hex in $primary-colors {
+        --#{$name}-color: #{$hex};
+    }
     // container size
     --container-max-width: 1200px;
 
