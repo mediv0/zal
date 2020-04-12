@@ -1,0 +1,11 @@
+// GrayScales
+
+@for $i from 1 to 10 {
+    .bg-gray-#{$i} {
+        background-color: lighten($color: #000, $amount: $i * 10%);
+    }
+
+    .text-gray-#{$i}{
+        color: lighten($color: #000, $amount: $i * 10%);
+    }
+}
