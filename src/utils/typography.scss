@@ -7,7 +7,15 @@ $headings: (
     "title-4": 2.143rem,
     "title-5": 1.714rem,
     "title-6": 1.286rem,
-    "title-7": 1.143rem,
+    "title-7": 1.143rem
+);
+
+$paragraphs: (
+    "p-1": 1.286rem,
+    "p-2": 1.143rem,
+    "p-3": 1rem,
+    "p-4": 0.857rem,
+    "p-5": 0.714rem,
 );
 
 @each $name, $size in $headings {
@@ -15,4 +23,11 @@ $headings: (
         font-size: $size;
         font-weight: bold;
     }
-}
+};
+
+@each $p, $size in $paragraphs {
+    .#{$p} {
+        font-size: $size;
+        font-weight: normal;
+    }
+};
