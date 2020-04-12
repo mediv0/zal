@@ -32,8 +32,11 @@ $primary-secondary-colors: map-merge($secondary-colors, $primary-colors);
     --error-color: #fa4252;
     --link-color: #3e64ff;
 
-    --container-max-width-: 1200px;
-    --font-size: 1.4rem;
+    // container size
+    --container-max-width: 1200px;
+
+    // font styles
+    --font-size: 14px;
     --font-family-rtl: "Shabnam", "Vazir", sans-serif;
     --font-family-ltr: "Inter", sans-serif;
 }

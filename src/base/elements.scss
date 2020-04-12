@@ -2,7 +2,7 @@
 
 html {
     box-sizing: border-box;
-    font-size: 62.5%; /* =10px */
+    font-size: var(--font-size);
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     -moz-osx-font-smoothing: grayscale;
@@ -10,15 +10,14 @@ html {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
     box-sizing: inherit;
     padding: 0;
     margin: 0;
 }
 
 body {
-    font-size: var(--base-font-size);
     font-family: "Shabnam", "Vazir", sans-serif;
     font-family: var(--font-family-rtl);
 }
