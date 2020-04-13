@@ -21,3 +21,19 @@ body {
     font-family: "Shabnam", "Vazir", sans-serif;
     font-family: var(--font-family-rtl);
 }
+
+// link default style
+a {
+    text-decoration: none;
+    color: var(--link-color);
+
+    &:hover {
+        color: darken(map-get($primary-colors, "link"), 20%);
+    }
+}
+
+// li default style
+li,
+ul {
+    list-style: none;
+}
