@@ -3,3 +3,6 @@
 @import "base/all";
 @import "helpers/all";
 @import "utils/all";
+
+// import atoms, molecules, organisms after this line
+@import "atoms/all";
