@@ -9,14 +9,14 @@ $val: 10;
 @each $name, $size in $headings {
     .#{$name} {
         font-size: $size;
-        font-weight: bold;
+        font-weight: 400;
     }
 }
 
 @each $p, $size in $paragraphs {
     .#{$p} {
         font-size: $size;
-        font-weight: normal;
+        font-weight: 300;
 
         @if $size >= 1rem {
             line-height: 35px;
