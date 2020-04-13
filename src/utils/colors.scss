@@ -25,3 +25,10 @@
         color: get-css-root-variable($key);
     }
 }
+
+// Borders Color
+@each $color-name, $color-hex in $primary-colors {
+    .border-#{$color-name} {
+        border-color: get-css-root-variable($color-name);
+    }
+}

@@ -1,0 +1,17 @@
+$borders-directions: (
+    "l": "left",
+    "r": "right",
+    "t": "top",
+    "b": "bottom"
+);
+.border {
+    border: $border-width solid get-css-root-variable($main-color);
+}
+
+@each $name, $direction in $borders-directions {
+    .border-#{$name} {
+        border-#{$direction}: $border-width
+            solid
+            get-css-root-variable($main-color);
+    }
+}
