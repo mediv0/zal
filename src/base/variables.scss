@@ -24,6 +24,14 @@ $paragraphs: (
     "text-5": 0.714rem
 );
 
+$breakpoints: (
+    "sm": 480px,
+    "mo": 720px,
+    "ta": 960px,
+    "ds": 1024px,
+    "dm": 1366
+);
+
 :root {
     @each $name, $hex in $primary-colors {
         --#{$name}-color: #{$hex};
