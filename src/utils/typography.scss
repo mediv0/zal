@@ -1,5 +1,9 @@
 // typography heading classes
 
+/*
+    we initial sizes for paragraph headers here and use it later.
+*/
+
 @each $name, $size in $headings {
     .#{$name} {
         font-size: $size;
