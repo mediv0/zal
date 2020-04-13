@@ -4,6 +4,8 @@
     we initial sizes for paragraph headers here and use it later.
 */
 
+$val: 10;
+
 @each $name, $size in $headings {
     .#{$name} {
         font-size: $size;
@@ -15,5 +17,11 @@
     .#{$p} {
         font-size: $size;
         font-weight: normal;
+
+        @if $size >= 1rem {
+            line-height: 35px;
+        } @else {
+            line-height: 25px;
+        }
     }
 }
