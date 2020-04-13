@@ -3,7 +3,9 @@ $primary-colors: (
     "idle": #feb72b,
     "success": #21bf73,
     "error": #fa4252,
-    "link": #3e64ff
+    "dark": #000000,
+    "link": #3e64ff,
+    "white": #ffffff
 );
 
 $main-color: "primary";
@@ -39,6 +41,11 @@ $margin-padding-increaser-number: 5;
 
 // Borders
 $border-width: 1px;
+$border-radios: 15px;
+
+// Borders
+$border-padding-y: 16px;
+$border-padding-x: 16px;
 
 $container-max-width: 1200px;
 

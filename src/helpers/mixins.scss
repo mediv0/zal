@@ -11,3 +11,7 @@
         }
     }
 }
+
+@mixin border-radios {
+    border-radius: $border-radios;
+}
