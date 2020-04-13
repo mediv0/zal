@@ -1,19 +1,6 @@
 // Box Shadow
 @each $key, $color in $primary-colors {
     .box-shadow-#{$key} {
-        position: relative;
-        background: get-css-root-variable($key);
-        &::before {
-            content: "";
-            position: absolute;
-            left: 13%;
-            bottom: -0.5rem;
-            z-index: -1;
-            width: 75%;
-            height: 20%;
-            -webkit-filter: blur(20px);
-            filter: blur(20px);
-            background-color: get-css-root-variable($key);
-        }
+        box-shadow: 0 25px 32px -20px get-css-root-variable($key);
     }
 }
