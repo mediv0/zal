@@ -1,6 +1,22 @@
 .container {
-    max-width: var(--container-max-width);
-    margin: 0 auto;
+    @include SET-MEDIA-QUERY-FOR("vs", "sm") {
+        max-width: 100%;
+    }
+
+    @include SET-MEDIA-QUERY-FOR("md") {
+        max-width: 100%;
+        margin: 0 20px;
+    }
+
+    @include SET-MEDIA-QUERY-FOR("lg") {
+        max-width: 100%;
+        margin: 0 52px;
+    }
+
+    @include SET-MEDIA-QUERY-FOR("xl") {
+        max-width: var(--container-max-width);
+        margin: 0 auto;
+    }
 }
 
 .container-fluid {
