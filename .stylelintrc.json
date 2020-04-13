@@ -7,6 +7,8 @@
         "color-hex-length": "long",
         "custom-property-empty-line-before": "never",
         "function-name-case": "lower",
-        "rule-empty-line-before": null
+        "rule-empty-line-before": null,
+        "block-closing-brace-newline-after": null,
+        "at-rule-empty-line-before": null
     }
 }
