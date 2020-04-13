@@ -1,12 +1,19 @@
 // GrayScales
 @for $i from 1 to 10 {
+    $color: lighten(
+        $color: #000000,
+        $amount: $i * 10%
+    );
     .bg-gray-#{$i} {
-        background-color: lighten($color: #000000, $amount: $i * 10%);
+        background-color: $color;
     }
 
     .text-gray-#{$i} {
-        color: lighten($color: #000000, $amount: $i * 10%);
+        color: $color;
     }
+
+    // append to grayscale list
+    $gray-scales: map-merge($gray-scales, ("gray-" +#{$i}: $color));
 }
 
 // get primary colors as css variable

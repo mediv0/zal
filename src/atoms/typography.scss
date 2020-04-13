@@ -1,9 +1,20 @@
 // all styles related to text and typogrpahy atoms goes here
 
+// use mark tag to highlight part of text
 mark {
     @include MARK-TAG-DEFAULTS;
 }
 
 mark.outline {
     @include MARK-TAG-DEFAULTS("true");
+}
+
+blockquote {
+    font-size: 1em;
+    border-right: 4px solid map-get($gray-scales, "gray-9");
+    color: map-get($gray-scales, "gray-4");
+    padding-right: 20px;
+    margin: 30px 0;
+    line-height: 35px;
+    font-style: italic;
 }
