@@ -38,8 +38,6 @@ $container-max-width: 1200px;
     @each $name, $hex in $primary-colors {
         --#{$name}-color: #{$hex};
     }
-    // container size
-    --container-max-width: 1200px;
 
     // font styles
     --font-size: 14px;
