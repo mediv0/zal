@@ -6,6 +6,8 @@ $primary-colors: (
     "link": #3e64ff
 );
 
+$main-color: "primary";
+
 $headings: (
     "title-1": 4.286rem,
     "title-2": 3.429rem,
@@ -34,6 +36,9 @@ $breakpoints: (
 
 $margin-paddings-numbers: 10;
 $margin-padding-increaser-number: 5;
+
+// Borders
+$border-width: 1px;
 
 $container-max-width: 1200px;
 
