@@ -11,9 +11,8 @@
             z-index: -1;
             width: 75%;
             height: 20%;
-            border-radius: 40px;
-            -webkit-filter: blur(30px);
-            filter: blur(30px);
+            -webkit-filter: blur(20px);
+            filter: blur(20px);
             background-color: get-css-root-variable($key);
         }
     }
