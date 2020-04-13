@@ -8,6 +8,9 @@ $primary-colors: (
     "white": #ffffff
 );
 
+// this will be appended after the grayscale initialize the colors
+$gray-scales: ();
+
 $main-color: "primary";
 
 $headings: (
@@ -48,6 +51,8 @@ $border-padding-y: 16px;
 $border-padding-x: 16px;
 
 $container-max-width: 1200px;
+
+$mark-tag-color: #c3eed9;
 
 :root {
     @each $name, $hex in $primary-colors {

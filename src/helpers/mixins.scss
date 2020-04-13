@@ -15,3 +15,17 @@
 @mixin border-radios {
     border-radius: $border-radios;
 }
+
+// set default styles for HTML mark tag
+@mixin MARK-TAG-DEFAULTS($has-class: "false") {
+    @if $has-class == "false" {
+        background-color: $mark-tag-color;
+    } @else {
+        border-bottom: 2px solid $mark-tag-color;
+        background-color: transparent;
+    }
+
+    border-radius: 4px;
+    padding: 2px 5px;
+    margin: 0 2px;
+}
