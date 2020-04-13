@@ -7,3 +7,7 @@
 @function get-css-root-variable($key) {
     @return var(--#{$key}-color);
 }
+
+@function increase-pixel-with-margin-padding-increaser-number($number) {
+    @return $number + $margin-padding-increaser-number + px;
+}

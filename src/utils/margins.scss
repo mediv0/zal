@@ -1,0 +1,29 @@
+@for $number from 1 to $margin-paddings-numbers {
+    .mt-#{$number} {
+        margin-top: increase-pixel-with-margin-padding-increaser-number(
+            $number
+        );
+    }
+
+    .mb-#{$number} {
+        margin-bottom: increase-pixel-with-margin-padding-increaser-number(
+            $number
+        );
+    }
+
+    .mr-#{$number} {
+        margin-right: increase-pixel-with-margin-padding-increaser-number(
+            $number
+        );
+    }
+
+    .ml-#{$number} {
+        margin-left: increase-pixel-with-margin-padding-increaser-number(
+            $number
+        );
+    }
+
+    .m-#{$number} {
+        margin: increase-pixel-with-margin-padding-increaser-number($number);
+    }
+}
