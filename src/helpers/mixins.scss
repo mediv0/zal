@@ -1,0 +1,11 @@
+/* all mixins should have the following naming convention:
+    ****  all upper case ****
+    e.g: @mixin MY-MIXIN { your stuff }
+*/
+
+// generate media query based on current $breakpoint value
+@mixin SET-MEDIA-QUERY-FOR($breakpoint) {
+    @media (min-width: map-get($breakpoints, $breakpoint)) {
+        @content;
+    }
+}
