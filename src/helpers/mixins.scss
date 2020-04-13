@@ -4,8 +4,10 @@
 */
 
 // generate media query based on current $breakpoint value
-@mixin SET-MEDIA-QUERY-FOR($breakpoint) {
-    @media (min-width: map-get($breakpoints, $breakpoint)) {
-        @content;
+@mixin SET-MEDIA-QUERY-FOR($breakpoint...) {
+    @each $key in $breakpoint {
+        @media (min-width: map-get($breakpoints, $key)) {
+            @content;
+        }
     }
 }
