@@ -1,5 +1,5 @@
 .container {
-    @include SET-MEDIA-QUERY-FOR("vs", "sm") {
+    @include SET-MEDIA-QUERY-FOR("sm") {
         max-width: 100%;
     }
 
@@ -14,7 +14,7 @@
     }
 
     @include SET-MEDIA-QUERY-FOR("xl") {
-        max-width: var(--container-max-width);
+        max-width: $container-max-width;
         margin: 0 auto;
     }
 }

@@ -32,6 +32,8 @@ $breakpoints: (
     "xl": 1366px
 );
 
+$container-max-width: 1200px;
+
 :root {
     @each $name, $hex in $primary-colors {
         --#{$name}-color: #{$hex};
