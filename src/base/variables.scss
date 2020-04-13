@@ -37,6 +37,8 @@ $margin-padding-increaser-number: 5;
 
 $container-max-width: 1200px;
 
+$mark-tag-color: #c3eed9;
+
 :root {
     @each $name, $hex in $primary-colors {
         --#{$name}-color: #{$hex};

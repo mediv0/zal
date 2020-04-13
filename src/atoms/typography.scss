@@ -1,0 +1,9 @@
+// all styles related to text and typogrpahy atoms goes here
+
+mark {
+    @include MARK-TAG-DEFAULTS;
+}
+
+mark.outline {
+    @include MARK-TAG-DEFAULTS("true");
+}
