@@ -26,10 +26,9 @@ body {
 a {
     text-decoration: none;
     color: var(--link-color);
-
-    &:hover {
-        color: darken(map-get($primary-colors, "link"), 20%);
-    }
+}
+a.link:hover {
+    color: darken(map-get($primary-colors, "link"), 20%);
 }
 
 // li default style
