@@ -1,4 +1,6 @@
 .btn {
+    display: inline-block;
+    position: relative;
     padding: $button-border-padding-x $button-border-padding-y
         $button-border-padding-x $button-border-padding-y;
     background-color: var(--primary-color);
@@ -7,7 +9,15 @@
     border: none;
     @include button-border-radios;
 
+    transition: all 0.2s ease;
     cursor: pointer;
+
+    &:hover {
+        transform: translateY(-3px);
+    }
+    &:active {
+        transform: translateY(0);
+    }
 }
 
 .btn-rounded {
