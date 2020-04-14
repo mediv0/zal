@@ -1,0 +1,22 @@
+.btn {
+    padding: $border-padding-x $border-padding-y $border-padding-x
+        $border-padding-y;
+    background-color: get-css-root-variable($main-color);
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+    &:disabled {
+        @extend .btn-disable;
+    }
+}
+
+.btn-rounded {
+    @include border-radios;
+}
+
+.btn-disable {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
