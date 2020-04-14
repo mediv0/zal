@@ -28,3 +28,9 @@
     padding: 2px 5px;
     margin: 0 2px;
 }
+
+@mixin badge-default-styles {
+    display: inline-block;
+    background-color: var(--primary-color);
+    border-radius: get-css-root-variable("badges-rounded-radios-number");
+}
