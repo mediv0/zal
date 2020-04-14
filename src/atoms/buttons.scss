@@ -14,6 +14,12 @@
     border-radius: 999px;
 }
 
+.btn-outline {
+    background: transparent;
+    border: 2px solid map-get($gray-scales, "gray-9");
+    color: black;
+}
+
 .btn-flat {
     border-radius: 4px;
 }
