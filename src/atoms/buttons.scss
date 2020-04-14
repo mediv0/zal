@@ -1,22 +1,25 @@
 .btn {
-    padding: $border-padding-x $border-padding-y $border-padding-x
-        $border-padding-y;
-    background-color: get-css-root-color-variable($main-color-name);
+    padding: $button-border-padding-x $button-border-padding-y
+        $button-border-padding-x $button-border-padding-y;
+    background-color: var(--primary-color);
     color: white;
     outline: none;
     border: none;
-    cursor: pointer;
+    @include button-border-radios;
 
-    &:disabled {
-        @extend .btn-disable;
-    }
+    cursor: pointer;
 }
 
 .btn-rounded {
-    @include border-radios;
+    border-radius: 999px;
+}
+
+.btn-flat {
+    border-radius: 4px;
 }
 
 .btn-disable {
-    background-color: #cccccc;
-    cursor: not-allowed;
+    background-color: map-get($gray-scales, "gray-9");
+    color: map-get($gray-scales, "gray-6");
+    pointer-events: none;
 }
