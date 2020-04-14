@@ -9,7 +9,7 @@
         background-color: $color !important;
     }
     .text-gray-#{$i} {
-        color: $color;
+        color: $color !important;
     }
 
     // append to grayscale list
