@@ -1,3 +1,6 @@
+// there is no use for this at this point
+
+/*
 $borders-directions: (
     "l": "left",
     "r": "right",
@@ -5,13 +8,13 @@ $borders-directions: (
     "b": "bottom"
 );
 .border {
-    border: $border-width solid get-css-root-color-variable($main-color-name);
+    border: $border-width solid var(--primary-color);
 }
 
 @each $name, $direction in $borders-directions {
     .border-#{$name} {
-        border-#{$direction}: $border-width
-            solid
-            get-css-root-color-variable($main-color-name);
+        border-#{$direction}: $border-width solid var(--primary-color);
     }
 }
+
+*/
