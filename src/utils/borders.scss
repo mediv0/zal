@@ -5,13 +5,13 @@ $borders-directions: (
     "b": "bottom"
 );
 .border {
-    border: $border-width solid get-css-root-variable($main-color);
+    border: $border-width solid get-css-root-variable($main-color-name);
 }
 
 @each $name, $direction in $borders-directions {
     .border-#{$name} {
         border-#{$direction}: $border-width
             solid
-            get-css-root-variable($main-color);
+            get-css-root-variable($main-color-name);
     }
 }
