@@ -50,6 +50,9 @@ $border-radios: 15px;
 $border-padding-y: 16px;
 $border-padding-x: 16px;
 
+// Badges
+$badges-rounded-radios-number: 2px;
+
 $container-max-width: 1200px;
 
 $mark-tag-color: #c3eed9;
@@ -58,6 +61,9 @@ $mark-tag-color: #c3eed9;
     @each $name, $hex in $primary-colors {
         --#{$name}-color: #{$hex};
     }
+
+    // Badges
+    --badges-rounded-radios-number: #{$badges-rounded-radios-number};
 
     // font styles
     --font-size: 14px;

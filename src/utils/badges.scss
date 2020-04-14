@@ -1,0 +1,17 @@
+.badge {
+    background-color: get-css-root-color-variable($main-color-name);
+    color: white;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.badge-circle {
+    border-radius: 100%;
+}
+
+.badge-rounded {
+    border-radius: get-css-root-variable("badges-rounded-radios-number");
+}

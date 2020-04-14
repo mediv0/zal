@@ -10,6 +10,10 @@
     @return var(--#{$key}-color);
 }
 
+@function get-css-root-variable($key) {
+    @return var(--#{$key});
+}
+
 @function increase-pixel-with-margin-padding-increaser-number($number) {
     @return $number + $margin-padding-increaser-number + px;
 }
