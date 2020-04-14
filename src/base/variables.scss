@@ -10,9 +10,6 @@ $primary-colors: (
 
 // this will be appended after the grayscale initialize the colors
 $gray-scales: ();
-
-$main-color-name: "primary";
-
 $headings: (
     "title-1": 4.286rem,
     "title-2": 3.429rem,
@@ -42,13 +39,11 @@ $breakpoints: (
 $margin-paddings-numbers: 10;
 $margin-padding-increaser-number: 5;
 
-// Borders
+// button styles
 $border-width: 1px;
-$border-radios: 15px;
-
-// Borders
-$border-padding-y: 16px;
-$border-padding-x: 16px;
+$botton-border-radios: 15px;
+$button-border-padding-y: 16px;
+$button-border-padding-x: 16px;
 
 // Badges
 $badges-rounded-radios-number: 2px;
