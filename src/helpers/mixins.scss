@@ -1,5 +1,4 @@
 /* all mixins should have the following naming convention:
-    ****  all upper case ****
     e.g: @mixin MY-MIXIN { your stuff }
 */
 
@@ -12,8 +11,8 @@
     }
 }
 
-@mixin border-radios {
-    border-radius: $border-radios;
+@mixin button-border-radios {
+    border-radius: $botton-border-radios;
 }
 
 // set default styles for HTML mark tag
