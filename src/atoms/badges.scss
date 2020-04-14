@@ -1,5 +1,5 @@
 .badge {
-    background-color: get-css-root-color-variable($main-color-name);
+    background-color: var(--primary-color);
     color: white;
     display: inline-block;
     padding-left: 8px;
