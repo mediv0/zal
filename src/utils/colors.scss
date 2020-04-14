@@ -19,16 +19,16 @@
 // get primary colors as css variable
 @each $key, $color in $primary-colors {
     .bg-#{$key} {
-        background: get-css-root-variable($key) !important;
+        background: get-css-root-color-variable($key) !important;
     }
     .text-#{$key} {
-        color: get-css-root-variable($key) !important;
+        color: get-css-root-color-variable($key) !important;
     }
 }
 
 // Borders Color
 @each $color-name, $color-hex in $primary-colors {
     .border-#{$color-name} {
-        border-color: get-css-root-variable($color-name) !important;
+        border-color: get-css-root-color-variable($color-name) !important;
     }
 }

@@ -1,6 +1,6 @@
 // Box Shadow
 @each $key, $color in $primary-colors {
     .box-shadow-#{$key} {
-        box-shadow: 0 25px 32px -20px get-css-root-variable($key);
+        box-shadow: 0 25px 32px -20px get-css-root-color-variable($key);
     }
 }

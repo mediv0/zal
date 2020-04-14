@@ -1,7 +1,7 @@
 .btn {
     padding: $border-padding-x $border-padding-y $border-padding-x
         $border-padding-y;
-    background-color: get-css-root-variable($main-color-name);
+    background-color: get-css-root-color-variable($main-color-name);
     color: white;
     outline: none;
     border: none;
