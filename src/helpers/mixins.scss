@@ -11,7 +11,7 @@
     }
 }
 
-@mixin button-border-radios($radius: 15px) {
+@mixin button-border-radius($radius: 15px) {
     @if $radius != 15px {
         border-radius: $radius;
     } @else {
