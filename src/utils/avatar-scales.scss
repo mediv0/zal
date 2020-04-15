@@ -1,0 +1,15 @@
+$default-avatar-size: 50px;
+@for $i from 1 to 5 {
+    .avatar-scale-#{$i} {
+        width: $default-avatar-size !important;
+        height: $default-avatar-size !important;
+
+        @if $default-avatar-size <= 40px {
+            & > .status {
+                width: $avatar-status-size - 5px !important;
+                height: $avatar-status-size - 5px !important;
+            }
+        }
+    }
+    $default-avatar-size: $default-avatar-size - 10px;
+}
