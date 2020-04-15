@@ -24,6 +24,12 @@
     border-radius: 999px;
 }
 
+.btn-transparent {
+    background: transparent;
+    border: none;
+    color: var(--primary-color);
+}
+
 .btn-outline {
     background: transparent;
     border: 2px solid map-get($gray-scales, "gray-9");
@@ -38,4 +44,10 @@
     background-color: map-get($gray-scales, "gray-9");
     color: map-get($gray-scales, "gray-6");
     pointer-events: none;
+}
+.btn-disable-outline {
+    @extend .btn-disable;
+    @extend .btn-outline;
+
+    background: transparent;
 }
