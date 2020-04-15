@@ -26,6 +26,7 @@ body {
 a {
     text-decoration: none;
     color: var(--link-color);
+    cursor: pointer;
 }
 a.link:hover {
     color: darken(map-get($primary-colors, "link"), 20%);
