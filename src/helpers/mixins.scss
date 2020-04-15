@@ -38,3 +38,10 @@
     background-color: var(--primary-color);
     border-radius: get-css-root-variable("badges-rounded-radios-number");
 }
+
+// center child element vertically and horizontally
+@mixin center-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
