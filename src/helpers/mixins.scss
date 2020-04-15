@@ -11,8 +11,12 @@
     }
 }
 
-@mixin button-border-radios {
-    border-radius: $botton-border-radios;
+@mixin button-border-radios($radius: 15px) {
+    @if $radius != 15px {
+        border-radius: $radius;
+    } @else {
+        border-radius: $botton-border-radios;
+    }
 }
 
 // set default styles for HTML mark tag
