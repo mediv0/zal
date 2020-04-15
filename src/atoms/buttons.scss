@@ -51,3 +51,11 @@
 
     background: transparent;
 }
+
+.btn-disable-transparent {
+    @extend .btn-disable;
+    @extend .btn-transparent;
+
+    background: transparent;
+    color: map-get($gray-scales, "gray-6");
+}
