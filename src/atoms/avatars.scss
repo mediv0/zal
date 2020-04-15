@@ -1,0 +1,31 @@
+.avatar {
+    position: relative;
+    width: 62px;
+    height: 62px;
+    background: var(--primary-color);
+    color: var(--white-color);
+    @include button-border-radius(40%);
+    @include center-child;
+
+    & > img {
+        transition: all 0.3s ease;
+        user-select: none;
+        @include button-border-radius;
+        @include fit-image;
+    }
+}
+
+.avatar-circle {
+    @include button-border-radius(100%);
+}
+
+.avatar > .status {
+    position: absolute;
+    width: $avatar-status-size;
+    height: $avatar-status-size;
+    top: -5%;
+    right: -5%;
+    background: var(--primary-color);
+    border: 2px solid var(--white-color);
+    @include button-border-radius(100%);
+}
