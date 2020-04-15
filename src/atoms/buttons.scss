@@ -5,8 +5,6 @@
         $button-border-padding-x $button-border-padding-y;
     background-color: var(--primary-color);
     color: white;
-    outline: none;
-    border: none;
     @include button-border-radius;
 
     transition: all 0.2s ease;
